@@ -1,0 +1,32 @@
+{
+  "plugins": [
+    {
+      "name": "zeplin-cli-connect-plugin-vue"
+    },
+    {
+      "name": "@zeplin/cli-connect-storybook-plugin",
+      "config": {
+        "url": "http://localhost:6007/",
+        "startScript": "storybook"
+      }
+    }
+  ],
+  "projects": [
+    "644776327938953b1d40ac0e"
+  ],
+  "components": [
+    {
+      "path": ".storybook\\main.ts",
+      "zeplinIds": [
+        "6447964071a88a3bb8f6eccd"
+      ]
+    },
+    {
+      "path": ".vscode\\settings.json",
+      "zeplinIds": [
+        "6447867c083f373b881cf9d4",
+        "6447882efc552940017f6e8b"
+      ]
+    }
+  ]
+}
